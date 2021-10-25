@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Alessandrodorazio\LaravelIpWhitelist\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelIpWhitelistCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-ip-whitelist';
 
     public $description = 'My command';
 

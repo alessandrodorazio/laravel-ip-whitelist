@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "alessandrodorazio/laravel-ip-whitelist",
+    "description": "This is my package laravel-ip-whitelist",
     "keywords": [
-        ":vendor_name",
+        "alessandrodorazio",
         "laravel",
-        ":package_slug"
+        "laravel-ip-whitelist"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/alessandrodorazio/laravel-ip-whitelist",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Alessandro D'Orazio",
+            "email": "me@alessandrodorazio.it",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Alessandrodorazio\\LaravelIpWhitelist\\": "src",
+            "Alessandrodorazio\\LaravelIpWhitelist\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Alessandrodorazio\\LaravelIpWhitelist\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Alessandrodorazio\\LaravelIpWhitelist\\LaravelIpWhitelistServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LaravelIpWhitelist": "Alessandrodorazio\\LaravelIpWhitelist\\LaravelIpWhitelistFacade"
             }
         }
     },
