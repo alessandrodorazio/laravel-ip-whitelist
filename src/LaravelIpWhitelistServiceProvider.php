@@ -9,8 +9,8 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class LaravelIpWhitelistServiceProvider extends PackageServiceProvider
 {
-
-    public function boot() {
+    public function boot()
+    {
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__.'/../config/config.php' => config_path('ip-whitelist.php'),

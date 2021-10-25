@@ -2,9 +2,9 @@
 
 namespace Alessandrodorazio\LaravelIpWhitelist\Tests;
 
+use Alessandrodorazio\LaravelIpWhitelist\LaravelIpWhitelistServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Alessandrodorazio\LaravelIpWhitelist\LaravelIpWhitelistServiceProvider;
 
 class TestCase extends Orchestra
 {
