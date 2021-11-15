@@ -15,7 +15,7 @@ class IpWhitelist
         $ipAddresses = config('ip-whitelist.whitelist');
         if(!in_array($request->ip(), $ipAddresses) && !config('app.debug')) {
             Log::error('IP address not in whitelist ' . $request->ip());
-            return Redirect::to('/');
+            return response()->json('IP not allowed');
         }
         return $next($request);
     }
